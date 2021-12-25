@@ -1,4 +1,4 @@
-const ethers = require( 'ethers' )
+const ethers = require( './ethers' )
 const https= require( 'https' )
 
 const NFT = class NFT {
@@ -88,7 +88,6 @@ const NFT = class NFT {
                 this.messages.push( `Etherscan: Http Request raised an error. Please check "address" and "etherscan api key".` )
                 return resolve( [ human_readable, this.messages ] ) 
             } )
-
         } )
     }
 

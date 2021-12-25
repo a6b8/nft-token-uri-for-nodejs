@@ -1,14 +1,25 @@
 {
-  "name": "1",
-  "version": "1.0.0",
+  "name": "nft-token-uri",
+  "version": "0.0.1",
   "description": "",
+  "keywords": [
+    "nft",
+    "generative art",
+    "on chain svg"
+  ],
+  "homepage": "https://github.com/a6b8/nft-token-uri-for-nodejs",
+  "bugs": {
+    "url": "https://github.com/a6b8/nft-token-uri-for-nodejs/issues",
+    "email": "hello@13plus4.com"
+  },
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "ethers": "^5.5.2"
-  }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a6b8/nft-token-uri-for-nodejs.git"
+  },
+  "author": "Andreas Banholzer <hello@13plus4.com> (https://github.com/a6b8)",
+  "license": "MIT"
 }
